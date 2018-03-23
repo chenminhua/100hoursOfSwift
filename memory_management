@@ -1,0 +1,13 @@
+automatic reference counting (It's not garbage collection)
+
+reference types (classes) are stored in the heap
+
+swift count reference to each object and when there are zero references, they get tossed.
+
+声明变量时可以影响reference counting
+strong (default) 只要有引用，就停留在堆内存中
+
+weak (only works with optional) 如果没人关心了，把我设置为nil
+    常用于 outlet 和 delegate
+unowned (don't reference count this) 很少用
+
