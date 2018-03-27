@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB4FABF6206A8C56006C4805 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4FABF5206A8C56006C4805 /* Person.swift */; };
+		CB4FABF8206A909B006C4805 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4FABF7206A909B006C4805 /* PersonViewController.swift */; };
 		CB65B14B20693F670026A054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65B14A20693F670026A054 /* AppDelegate.swift */; };
 		CB65B14D20693F670026A054 /*  ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB65B14C20693F670026A054 /*  ViewController.swift */; };
 		CB65B15020693F670026A054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB65B14E20693F670026A054 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB4FABF5206A8C56006C4805 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		CB4FABF7206A909B006C4805 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		CB65B14720693F670026A054 /* MyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB65B14A20693F670026A054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB65B14C20693F670026A054 /*  ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ViewController.swift"; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				CB65B15320693F670026A054 /* LaunchScreen.storyboard */,
 				CB65B15620693F670026A054 /* Info.plist */,
 				CB65B15C2069421B0026A054 /* MyTableViewCell.swift */,
+				CB4FABF5206A8C56006C4805 /* Person.swift */,
+				CB4FABF7206A909B006C4805 /* PersonViewController.swift */,
 			);
 			path = MyTableView;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4FABF8206A909B006C4805 /* PersonViewController.swift in Sources */,
 				CB65B14D20693F670026A054 /*  ViewController.swift in Sources */,
 				CB65B14B20693F670026A054 /* AppDelegate.swift in Sources */,
+				CB4FABF6206A8C56006C4805 /* Person.swift in Sources */,
 				CB65B15D2069421B0026A054 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
